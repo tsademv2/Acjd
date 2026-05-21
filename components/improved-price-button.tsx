@@ -54,22 +54,22 @@ export function ImprovedPriceButton() {
           <TabsContent value="discovery" className="space-y-4">
             <div className="rounded-lg border border-sky-100 overflow-hidden">
               <div className="bg-sky-50 px-4 py-3 border-b border-sky-100">
-                <h3 className="font-medium text-sky-800">Packs découverte</h3>
+                <h3 className="font-medium text-sky-800">Packs formation élémentaire</h3>
               </div>
               <div className="divide-y divide-sky-100">
                 <div className="px-4 py-3 flex justify-between items-center">
                   <div>
-                    <p className="font-medium text-gray-700">4 vols sur avion ecole</p>
-                    <p className="text-xs text-gray-500">cotisation annuelle incluse - durée vol 45 mn</p>
+                    <p className="font-medium text-gray-700">4 vols sur avion école</p>
+                    <p className="text-xs text-gray-500">cotisation annuelle incluse - Licence fédérale incluse - durée vol 45 mn</p>
                   </div>
-                  <p className="font-semibold text-sky-700">460€</p>
+                  <p className="font-semibold text-sky-700">574€</p>
                 </div>
                 <div className="px-4 py-3 flex justify-between items-center">
                   <div>
                     <p className="font-medium text-gray-700">5 vols sur ULM Super Guépard</p>
-                    <p className="text-xs text-gray-500">cotisation annuelle incluse - durée vol 45 mn</p>
+                    <p className="text-xs text-gray-500">cotisation annuelle incluse - Licence fédérale incluse - durée vol 45 mn</p>
                   </div>
-                  <p className="font-semibold text-sky-700">460€</p>
+                  <p className="font-semibold text-sky-700">406€</p>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ export function ImprovedPriceButton() {
            <TabsContent value="discovery" className="space-y-4">
             <div className="rounded-lg border border-sky-100 overflow-hidden">
               <div className="bg-sky-50 px-4 py-3 border-b border-sky-100">
-                <h3 className="font-medium text-sky-800">Vols découverte (30min)</h3>
+                <h3 className="font-medium text-sky-800">Vols découverte (30 min)</h3>
               </div>
               <div className="divide-y divide-sky-100">
                 <div className="px-4 py-3 flex justify-between items-center">
@@ -92,14 +92,14 @@ export function ImprovedPriceButton() {
                     <p className="font-medium text-gray-700">Evektor</p>
                     <p className="text-xs text-gray-500">1 personne</p>
                   </div>
-                  <p className="font-semibold text-sky-700">60€</p>
+                  <p className="font-semibold text-sky-700">70€</p>
                 </div>
                  <div className="px-4 py-3 flex justify-between items-center">
                   <div>
                     <p className="font-medium text-gray-700">Super Guépard</p>
                     <p className="text-xs text-gray-500">1 personne</p>
                   </div>
-                  <p className="font-semibold text-sky-700">50€</p>
+                  <p className="font-semibold text-sky-700">60€</p>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ export function ImprovedPriceButton() {
             <TabsContent value="discovery" className="space-y-4">
             <div className="rounded-lg border border-sky-100 overflow-hidden">
               <div className="bg-sky-50 px-4 py-3 border-b border-sky-100">
-                <h3 className="font-medium text-sky-800">Vols d'initiation avec instructeur (45min)</h3>
+                <h3 className="font-medium text-sky-800">Vols d'initiation avec instructeur (30 min)</h3>
               </div>
               <div className="divide-y divide-sky-100">
                 <div className="px-4 py-3 flex justify-between items-center">
@@ -115,14 +115,14 @@ export function ImprovedPriceButton() {
                     <p className="font-medium text-gray-700">Evektor</p>
                    
                   </div>
-                  <p className="font-semibold text-sky-700">120€</p>
+                  <p className="font-semibold text-sky-700">90€</p>
                 </div>
                  <div className="px-4 py-3 flex justify-between items-center">
                   <div>
                     <p className="font-medium text-gray-700">Super Guépard</p>
               
                   </div>
-                  <p className="font-semibold text-sky-700">90€</p>
+                  <p className="font-semibold text-sky-700">80€</p>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ export function ImprovedPriceButton() {
                     <p className="font-medium text-gray-700">Evektor Sportstar</p>
                     <p className="text-xs text-gray-500">Biplace école</p>
                   </div>
-                  <p className="font-semibold text-sky-700">111€/h</p>
+                  <p className="font-semibold text-sky-700">114€/h</p>
                 </div>
                 <div className="px-4 py-3 flex justify-between items-center">
                   <div>
@@ -149,23 +149,16 @@ export function ImprovedPriceButton() {
                 </div>
                 <div className="px-4 py-3 flex justify-between items-center">
                   <div>
-                    <p className="font-medium text-gray-700">Robin DR400 160cv</p>
-                    <p className="text-xs text-gray-500">Quadriplace voyage</p>
-                  </div>
-                  <p className="font-semibold text-sky-700">180€/h</p>
-                </div>
-                <div className="px-4 py-3 flex justify-between items-center">
-                  <div>
                     <p className="font-medium text-gray-700">Super guepard 100CV</p>
                     <p className="text-xs text-gray-500">ULM biplace</p>
                   </div>
-                  <p className="font-semibold text-sky-700">81€/h</p>
+                  <p className="font-semibold text-sky-700">90€/h</p>
                 </div>
                  <div className="px-4 py-3 flex justify-between items-center">
                   <div>
                     <p className="font-medium text-gray-700">Instruction</p>
                   </div>
-                  <p className="font-semibold text-sky-700">24€/h</p>
+                  <p className="font-semibold text-sky-700">27€/h</p>
                 </div>
               </div>
             </div>
@@ -180,7 +173,7 @@ export function ImprovedPriceButton() {
                 <div className="px-4 py-3">
                   <div className="flex justify-between mb-1">
                     <p className="font-medium text-gray-700">FFA</p>
-                    <p className="font-semibold text-sky-700">92€</p>
+                    <p className="font-semibold text-sky-700">96€</p>
                   </div>
                 </div>
               </div>
@@ -188,7 +181,7 @@ export function ImprovedPriceButton() {
                 <div className="px-4 py-3">
                   <div className="flex justify-between mb-1">
                     <p className="font-medium text-gray-700">FFA + Info pilote</p>
-                    <p className="font-semibold text-sky-700">141€</p>
+                    <p className="font-semibold text-sky-700">145€</p>
                   </div>
                 </div>
               </div>
@@ -196,7 +189,7 @@ export function ImprovedPriceButton() {
                 <div className="px-4 py-3">
                   <div className="flex justify-between mb-1">
                     <p className="font-medium text-gray-700">FFPULM</p>
-                    <p className="font-semibold text-sky-700">83,20€</p>
+                    <p className="font-semibold text-sky-700">85€</p>
                   </div>
                 </div>
               </div>
@@ -204,7 +197,15 @@ export function ImprovedPriceButton() {
                 <div className="px-4 py-3">
                   <div className="flex justify-between mb-1">
                     <p className="font-medium text-gray-700">FFPULM -25 ans</p>
-                    <p className="font-semibold text-sky-700">52€</p>
+                    <p className="font-semibold text-sky-700">43€</p>
+                  </div>
+                </div>
+              </div>
+                 <div className="divide-y divide-sky-100">
+                <div className="px-4 py-3">
+                  <div className="flex justify-between mb-1">
+                    <p className="font-medium text-gray-700">FFPULM -18 ans</p>
+                    <p className="font-semibold text-sky-700">21€</p>
                   </div>
                 </div>
               </div>
@@ -261,15 +262,22 @@ export function ImprovedPriceButton() {
                 <div className="px-4 py-3">
                   <div className="flex justify-between mb-1">
                     <p className="font-medium text-gray-700">Avion -21 ans</p>
-                    <p className="font-semibold text-sky-700">63€</p>
+                    <p className="font-semibold text-sky-700">65€</p>
                   </div>
                 </div>
                  <div className="px-4 py-3">
                   <div className="flex justify-between mb-1">
                     <p className="font-medium text-gray-700">Ulm -25 ans</p>
-                    <p className="font-semibold text-sky-700">43€</p>
+                    <p className="font-semibold text-sky-700">45€</p>
                   </div>
                 </div>
+                 <div className="px-4 py-3">
+                  <div className="flex justify-between mb-1">
+                    <p className="font-medium text-gray-700">Ulm -18 ans</p>
+                    <p className="font-semibold text-sky-700">21€</p>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </TabsContent>

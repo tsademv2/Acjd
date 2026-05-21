@@ -320,7 +320,7 @@ export default function Home() {
                           badge="École"
                           seats={2}
                           flightRules="VFR"
-                          price="111€/h"
+                          price="114€/h"
                           speed="170 km/h"
                         />
                       </HoverCard>
@@ -333,7 +333,7 @@ export default function Home() {
                           badge="École"
                           seats={2}
                           flightRules="VFR"
-                          price="111€/h"
+                          price="114€/h"
                           speed="170 km/h"
                         />
                       </HoverCard>
@@ -343,7 +343,7 @@ export default function Home() {
 
                 <TabsContent value="touring">
                   <StaggerIn>
-                    <div className="grid gap-8 md:grid-cols-2">
+                    <div className="grid gap-8 md:grid-cols-1">
                       <HoverCard>
                         <AircraftCard
                           name="Robin DR400 180cv F-GGHL"
@@ -356,26 +356,13 @@ export default function Home() {
                           speed="240 km/h"
                         />
                       </HoverCard>
-
-                      <HoverCard>
-                        <AircraftCard
-                          name="Robin DR400 160cv F-GDKN"
-                          description="Avion quadriplace de propriétaire mis à disposition des membres du club qualifiés pour les sorties et les animations."
-                          images={robinDR160Images}
-                          badge="Voyage"
-                          seats={4}
-                          flightRules="VFR/IFR"
-                          price="180€/h"
-                          speed="220 km/h"
-                        />
-                      </HoverCard>
                     </div>
                   </StaggerIn>
                 </TabsContent>
 
                 <TabsContent value="advanced">
                   <StaggerIn>
-                    <div className="grid gap-8 md:grid-cols-2">
+                    <div className="grid gap-8 md:grid-cols-1">
                       <HoverCard>
                         <AircraftCard
                           name="Super guepard 100CV"
@@ -384,7 +371,7 @@ export default function Home() {
                           badge="ULM"
                           seats={2}
                           flightRules="VFR"
-                          price="81€/h"
+                          price="90€/h"
                           speed="180 km/h"
                         />
                       </HoverCard>
